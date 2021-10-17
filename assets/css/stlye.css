@@ -1,2 +1,37 @@
-
-
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: powderblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --text50px: 50px;
+    --color: green;
+    --background: white;
+}
+header{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    font-size: var(--text50px);
+    color: var(--color)
+    display: inline;
+}
+header nav{
+    float: left;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 12px 10px 0 0;
+    border-bottom: whitesmoke 4px solid;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--color)
+}
