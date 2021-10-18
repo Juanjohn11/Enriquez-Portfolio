@@ -2,16 +2,16 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    background-color: powderblue;
+    background-color: rgb(81, 218, 236);
     font-family: 'Times New Roman', Times, serif;
 }
 :root{
     --text50px: 50px;
-    --color: green;
+    --color: pink;
     --background: white;
 }
 header{
-    background-color: red;
+    background-color: rgb(81, 218, 236);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -22,16 +22,94 @@ header h1{
     display: inline;
 }
 header nav{
-    float: left;
+    float: right;
 }
 header nav ul li {
     display: inline-block;
     padding: 10px;
-    margin: 12px 10px 0 0;
-    border-bottom: whitesmoke 4px solid;
+    margin: 120px 100px 100px 0;
+    border-bottom: black 5px solid;
 }
 header nav ul li a {
     text-decoration: none;
-    font-size: 26px;
+    font-size: 30px;
     color: var(--color)
+}
+header a:hover {
+    color: teal;
+    background-color:black;
+    padding: 5px;
+}
+.contents {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    margin: 0 50px 0 0 ;
+}
+.contents nav h2 {
+    color: var(--color);
+    font-size: var(--text50px);
+    border-bottom: black 5px solid;
+    padding: 0 10px 20px 0;
+    margin: 25px 0 25px 100px;
+}
+#work {
+    padding: 0 10px 600px 0;
+    border-right:black 4px solid;
+}
+
+.myself {
+    
+}
+.myself p {
+    display:flexbox;
+    text-align: center;
+    font-size: 1.8vw;
+    color: black;
+}
+.work a{
+    background-color: var(--color);
+}
+.work {
+    margin: 50px 0 0 450px;
+    position: absolute;
+}
+#img-a img {
+    width: 600px;
+    height: auto;
+}
+#img-1 {
+    position: relative;
+}
+#img-1 img {
+    width: 300px;
+    height: 100px;
+}
+#img-2 img{
+    width: 300px;
+    height: 100px;
+}
+#img-3 {
+    position:relative;
+}
+#img-3 img {
+    width: 300px;
+    height: 100px;
+}
+#img-4 img {
+    width: 300px;
+    height: 100px;
+}
+.work img{
+    filter: brightness(70%);
+}
+.work img:hover{
+    filter: brightness(100%);
+}
+#img-av {position: relative;}
+
+#img-av img {
+    width: 100px;
+    height: auto;
 }
