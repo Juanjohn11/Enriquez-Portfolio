@@ -51,19 +51,12 @@ header a:hover {
     color: var(--color);
     font-size: var(--text50px);
     border-bottom: black 5px solid;
-    padding: 0 10px 20px 0;
+    padding: 100px 0 120px 0;
     margin: 25px 0 25px 100px;
 }
-#work {
-    padding: 0 10px 600px 0;
-    border-right:black 4px solid;
-}
 
-.myself {
-    
-}
-.myself p {
-    display:flexbox;
+.contents p {
+    margin-left: 100px;
     text-align: center;
     font-size: 1.8vw;
     color: black;
@@ -102,14 +95,28 @@ header a:hover {
     height: 100px;
 }
 .work img{
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
 .work img:hover{
     filter: brightness(100%);
 }
-#img-av {position: relative;}
+#img-av {
+    position: relative;
+}
 
 #img-av img {
     width: 100px;
     height: auto;
+}
+#contact-me{
+    padding-top:950px;;
+}
+.contact-me-2 {
+    font-size: 40px;
+}
+.img-a-2{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 20px;
 }
